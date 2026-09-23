@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>你的名字 · 个人作品集</title>
+  <meta name="description" content="个人作品集初始页：我是谁、我在做什么、我做过什么。">
+  <!-- TODO: 换成你自己的名字和一句话介绍 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top">你的名字</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">菜单</button>
+      <nav id="siteNav" class="site-nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#projects">作品</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <p class="eyebrow">个人作品集 · 初始版 E1</p>
+      <h1>你好，我是<span class="accent">你的名字</span>。</h1>
+      <p class="lede">一句话介绍你自己：我是谁、我关心什么、我想做出什么东西。</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#projects">看看我的作品</a>
+        <a class="btn btn-ghost" href="#contact">联系我</a>
+      </div>
+    </section>
+
+    <section class="wrap section" id="about">
+      <h2>关于我</h2>
+      <p>这里写 2–3 句真实的自我介绍：我的专业/方向、我现在在学什么、我想解决的问题。</p>
+      <ul class="tags" aria-label="关键词">
+        <li>关键词一</li>
+        <li>关键词二</li>
+        <li>关键词三</li>
+      </ul>
+    </section>
+
+    <section class="wrap section" id="projects">
+      <h2>作品</h2>
+      <div class="grid" id="projectGrid"></div>
+      <p class="hint">本页是 E1 初始版：作品卡片由 script.js 渲染，内容会在 E3 / E4 持续替换成真实作品。</p>
+    </section>
+
+    <section class="wrap section" id="contact">
+      <h2>联系我</h2>
+      <ul class="links">
+        <li>GitHub：<a href="https://github.com/a976xw7td" target="_blank" rel="noopener">a976xw7td</a></li>
+        <li>邮箱：<a href="mailto:you@example.com">you@example.com</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="year">2026</span> 你的名字 · 用 HTML / CSS / JavaScript 手写</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
